@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<style>
+		body {
+			background-color: #222;
+			color: #fff;
+			font-family: Arial, sans-serif;
+		}
+
+		form {
+			background-color: #444;
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(255,255,255,0.5);
+			max-width: 500px;
+			margin: 0 auto;
+		}
+
+		label {
+			display: block;
+			font-size: 18px;
+			margin-bottom: 10px;
+		}
+
+		input[type=text], input[type=password] {
+			width: 100%;
+			padding: 10px;
+			font-size: 16px;
+			border-radius: 5px;
+			border: none;
+			background-color: #eee;
+			margin-bottom: 20px;
+		}
+
+		input[type=submit] {
+			background-color: #ff0;
+			color: #000;
+			font-size: 16px;
+			padding: 10px 20px;
+			border-radius: 5px;
+			border: none;
+			cursor: pointer;
+		}
+
+		input[type=submit]:hover {
+			background-color: #ff8;
+		}
+
+		.logo {
+			display: inline-block;
+			margin-right: 10px;
+			vertical-align: middle;
+		}
+
+		.logo img {
+			height: 50px;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>Login Page</h1>
+
+	<form>
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username"><br><br>
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password"><br><br>
+
+		<input type="submit" value="Login">
+
+		<div style="text-align: center; margin-top: 20px;">
+			<span class="logo"><img src="https://example.com/logo1.png" alt="Logo 1"></span>
+			<span class="logo"><img src="https://example.com/logo2.png" alt="Logo 2"></span>
+			<span class="logo"><img src="https://example.com/logo3.png" alt="Logo 3"></span>
+		</div>
+	</form>
+
+</body>
+</html>
